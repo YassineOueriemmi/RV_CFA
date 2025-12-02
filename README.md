@@ -29,8 +29,7 @@ Designed for quick usage and training practice (AmplifyME, CFA, trading games, i
 - Short Quantity = Short Notional / Price B
 
 ---
-
-##How to Run
+### **How to Run**
 
 Requires **Python 3.8+** (Tkinter included by default).
 
