@@ -9,7 +9,7 @@ def calculate_rv():
         price_long = float(priceA_entry.get())
         price_short = float(priceB_entry.get())
         base_notional = float(notional_entry.get())
-        net_expo = int(net_slider.get())  # 0 → 500k
+        net_expo = int(net_slider.get())  # 0 to 500k
 
         # Compute long/short notionals with tilt
         long_notional_value = base_notional + (net_expo / 2)
@@ -134,3 +134,4 @@ short_notional_label = tk.Label(output, text="--", font=("Arial", 12),
 short_notional_label.grid(row=3, column=1)
 
 root.mainloop()
+
